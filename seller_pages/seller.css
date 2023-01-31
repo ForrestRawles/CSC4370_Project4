@@ -1,0 +1,125 @@
+.logoutButton {
+  position: absolute;
+  right: 32px;
+  top: 1px;
+}
+
+.logoutButton form input {
+  font-size: 20px;
+  line-height: 35px;
+  height: 35px;
+  background-color: white;
+  border: none;
+  padding: 0px 50px;
+  color: lightblue;
+  border-radius: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logoutButton form input:hover {
+  background-color: lightblue;
+  color: white;
+  cursor: pointer;
+}
+
+.landingPageBar {
+  width: 100%;
+  display: inline-flex;
+  padding: 6px 12px;
+  color: gray;
+  font-weight: 700;
+  font-size: 28px;
+  position: absolute;
+  box-shadow: inset 0px 50px 40px -50px black;
+  background-color: lightcyan;
+  top: 0px;
+  left: 0px;
+}
+
+.landingPageBar .appName{
+  margin: 0;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+div.registration {
+    background-color: #ecf0f3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    margin: auto;
+    width: 800px;
+    padding: 10px;
+}
+
+div.mainPage {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 15px;
+  margin: auto;
+  width: 900px;
+}
+
+div.homeInfo {
+    background-color: #ecf0f3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding: 10px;
+    border-radius: 20px;
+  
+}
+
+div.polaroid {
+    background-color: lightcyan;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  div.container {
+    padding: 10px;
+    clear: both;
+    text-align: center;
+  }
+
+  table.a {
+    background-color: white;;
+    border: 1px solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 18pt;
+  }
+
+  #radio {
+    float: right;
+    align-items: top;
+    border-radius: 10%;
+    color: white;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0;
+  }
+
+  #radio:hover {
+    color: lightblue;
+    background-color: white;
+  }
+
+  #plus {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: white;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0;
+    font-size: 28pt;
+  }
+
+  #plus:hover {
+    background-color: #ecf0f3;
+    color: lightblue;
+  }
+

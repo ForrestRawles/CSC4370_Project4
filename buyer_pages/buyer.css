@@ -1,0 +1,107 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.logoutButton {
+    position: absolute;
+    right: 32px;
+    top: 1px;
+}
+  
+.logoutButton {
+    font-size: 20px;
+    line-height: 35px;
+    height: 35px;
+    background-color: gray;
+    border: none;
+    padding: 0px 50px;
+    color: lightblue;
+    border-radius: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+.logoutButton:hover {
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+}
+
+.landingPageBar {
+    width: 100%;
+    display: inline-flex;
+    padding: 6px 12px;
+    color: gray;
+    font-weight: 700;
+    font-size: 28px;
+    position: absolute;
+    box-shadow: inset 0px 50px 40px -50px black;
+    background-color: lightcyan;
+    top: 0px;
+    left: 0px;
+}
+
+.landingPageBar .appName{
+    margin: 0;
+}
+
+.mainGroup{
+    position: relative;
+    top: 50px;
+}
+
+.listings{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.listing{
+    margin: 20px;
+    position: relative;
+    width: 700px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.addButton{
+    font-size: 20px;
+    line-height: 35px;
+    height: 35px;
+    background-color: gray;
+    border: none;
+    padding: 0px 50px;
+    color: lightcyan;
+    border-radius: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.addButton:hover{
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
+
+input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px black, inset -6px -6px 6px white;
+}

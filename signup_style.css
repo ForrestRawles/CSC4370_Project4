@@ -1,0 +1,142 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+}
+  
+.landingPageBar {
+    width: 100%;
+    display: inline-flex;
+    padding: 6px 12px;
+    color: gray;
+    font-weight: 700;
+    font-size: 28px;
+    position: absolute;
+    box-shadow: inset 0px 50px 40px -50px black;
+    background-color: lightcyan;
+    top: 0px;
+    left: 0px;
+}
+  
+.landingPageBar .appName{
+    margin: 0;
+}
+
+.signup{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+}
+
+.signup_form {
+    position: relative;
+    width: 500px;
+    height: 750px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    top: 50px;
+}
+
+/* .brand-logo {
+  height: 100px;
+  width: 100px;
+  background: ;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+} */
+
+.brand-title {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 28px;
+  color: lightblue;
+  letter-spacing: 1px;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 30px;
+}
+
+label, input, button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px black, inset -6px -6px 6px white;
+}
+
+.signup_button{
+    font-size: 20px;
+    line-height: 35px;
+    height: 35px;
+    background-color: gray;
+  border: none;
+  padding: 0px 50px;
+  color: lightcyan;
+    border-radius: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.signup_button:hover {
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+}
+
+.returnHomeButton {
+    position: absolute;
+    right: 32px;
+    top: 1px;
+}
+
+.returnHomeButton{
+    width: 200px;
+    font-size: 20px;
+    line-height: 35px;
+    height: 35px;
+    background-color: gray;
+  border: none;
+  padding: 0px 50px;
+  color: lightcyan;
+    border-radius: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.returnHomeButton:hover {
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+}
